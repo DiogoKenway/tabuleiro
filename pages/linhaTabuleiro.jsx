@@ -5,7 +5,6 @@ export default function LinhaTabuleiro() {
     return (
         <>
             <div className="linha">
-                <Quadrado black/>
                 <Quadrado white/>
                 <Quadrado black/>
                 <Quadrado white/>
@@ -13,6 +12,7 @@ export default function LinhaTabuleiro() {
                 <Quadrado white/>
                 <Quadrado black/>
                 <Quadrado white/>
+                <Quadrado black/>
             </div>
             <div className="linha">
                 <Quadrado white/>
