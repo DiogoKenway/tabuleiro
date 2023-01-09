@@ -34,7 +34,6 @@ a {
 .tabuleiro {
   width: 800px;
   height: 800px;
-  
 }
 
 .linha {
@@ -42,14 +41,7 @@ a {
   flex-wrap: wrap;
 }
 
-.black {
-  background-color: black;
-  width: 100px;
-  height: 100px;
-}
-
-.white {
-  background-color: white;
+.quadrado {
   width: 100px;
   height: 100px;
 }
