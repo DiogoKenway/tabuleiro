@@ -1,16 +1,8 @@
-import Linha from "../components/Linha"
+import Tabuleiro from "../components/Tabuleiro";
+
 
 export default function Home() {
   return (
-    <div className="tabuleiro">
-      <Linha black/>
-      <Linha />
-      <Linha black/>
-      <Linha />
-      <Linha black/>
-      <Linha />
-      <Linha black/>
-      <Linha />
-    </div>
+    <Tabuleiro />
   )
 }
