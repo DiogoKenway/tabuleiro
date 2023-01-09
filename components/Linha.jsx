@@ -1,8 +1,9 @@
 import Quadrado from "./Quadrado";
+import styles from "../styles/Linha.module.css";
 
 export default function Linha(props) {
     return (
-        <div className="linha">            
+        <div className={styles.linha}>            
             <Quadrado black={!props.black}/>
             <Quadrado black={props.black}/>
             <Quadrado black={!props.black}/>

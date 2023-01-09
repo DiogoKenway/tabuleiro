@@ -30,18 +30,3 @@ a {
     background: black;
   }
 }
-
-.tabuleiro {
-  width: 800px;
-  height: 800px;
-}
-
-.linha {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.quadrado {
-  width: 100px;
-  height: 100px;
-}
