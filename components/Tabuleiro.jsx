@@ -11,7 +11,6 @@ export default function Tabuleiro() {
             <Linha />
             <Linha black />
             <Linha />
-            
         </>
     )
 }
